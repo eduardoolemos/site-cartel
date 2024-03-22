@@ -16,7 +16,11 @@
 
 
 body{
-    margin: 0px 0px 0px 0px ;
+    margin: auto;
+    min-width: 1980px;
+    min-height: 1080px;
+
+ 
 
 }
 
@@ -25,7 +29,7 @@ header{
     color: white;
     text-align: center;
     font-weight: lighter;
-    margin: 0px 0px 0px 0px;
+
 }
 
 header h1{
@@ -53,6 +57,8 @@ header h2{
 
 main{
     background-color: white;
+    margin: auto;
+
 }
 
 div{
@@ -61,4 +67,39 @@ div{
     font-size: 59px;
     margin-inline-start: 2vw;
 }
+
+#verso2 {
+    background-image: url('../imagens/background001.jpg');
+    color: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-inline-start: 0vh;
+
+}
+
+#verso2 p {
+    margin-inline-start: 2vw;
+
+}
+
+
+#verso4 {
+    background-image: url('../imagens/background002.jpg');
+    color: white;
+    background-attachment: fixed;
+    margin-inline-start: 0vh;
+}
+#verso4 p {
+    margin-inline-start: 2vw;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px -16px 0px;
+     }
 
