@@ -12,13 +12,14 @@
 }
 
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 
-
-body{
-    margin: auto;
-    min-width: 1980px;
-    min-height: 1080px;
+html, body{
+    min-height: 100vh;
 
  
 
@@ -33,27 +34,23 @@ header{
 }
 
 header h1{
-    margin: 0px 0px 0px 0px;
-    padding: 70px 0px;
+    padding-top: 60px;
     font-family: var(--fonte1);
     font-size: 120px;
+    font-variant: small-caps;
     
 }
 
-header h1::first-letter{
-    font-size: 170px;
+header p{
+    padding-bottom: 50px;
 }
 
-header>h2>a{
-   text-decoration: none;
-   color: white;
-   font-weight: bolder;
-}
-
-header h2{
-    padding: 0px 0px 0px 0px;
-    margin: -40px 0px 0px 0px;
-}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+ }
+ 
 
 main{
     background-color: white;
@@ -65,41 +62,26 @@ div{
     font-family: var(--fonte2);
     text-align: justify;
     font-size: 59px;
-    margin-inline-start: 2vw;
+    padding-left: 40px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
 }
 
-#verso2 {
-    background-image: url('../imagens/background001.jpg');
-    color: white;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin-inline-start: 0vh;
-
+div.normal{
+    background-color: white;
+    color: black;
 }
 
-#verso2 p {
-    margin-inline-start: 2vw;
-
-}
-
-
-#verso4 {
-    background-image: url('../imagens/background002.jpg');
-    color: white;
-    background-attachment: fixed;
-    margin-inline-start: 0vh;
-}
-#verso4 p {
-    margin-inline-start: 2vw;
-
+div.imagem{
+    background-color: rgb(63, 62, 62);
+    color: white
 }
 
 footer{
+    padding: 10px;
     background-color: black;
     color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 0px 0px 0px 0px;
-    margin: 0px 0px -16px 0px;
-     }
+}
 
